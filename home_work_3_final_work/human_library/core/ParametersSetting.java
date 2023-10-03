@@ -36,7 +36,7 @@ public class ParametersSetting {
      * @param string Принимает на вход строку
      * @return возвращает булево значение
      */
-    public static boolean isNumber(String string) {
+    public boolean isNumber(String string) {
         String str = "0123456789";
         for (char item : string.toCharArray()) {
             if (!str.contains(String.valueOf(item))) {

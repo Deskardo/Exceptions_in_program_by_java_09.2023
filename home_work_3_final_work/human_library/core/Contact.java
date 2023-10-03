@@ -69,7 +69,7 @@ public class Contact {
             }
 
         } catch (IOException e) {
-            e.printStackTrace();
+            System.out.println("Указан неверный путь к сохранению файла, укажите нужный в переменной path в классе App.");
         }
     }
 
