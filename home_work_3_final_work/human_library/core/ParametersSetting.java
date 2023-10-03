@@ -111,7 +111,7 @@ public class ParametersSetting {
         } else if (!isText(text)) {
             throw new WrongSimbolInput();
         } else {
-            return text;
+            return text.substring(0, 1).toUpperCase() + text.substring(1).toLowerCase(); // ФИО с заглавных букв
         }
     }
 
