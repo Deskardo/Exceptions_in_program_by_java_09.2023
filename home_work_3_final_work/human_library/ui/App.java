@@ -16,7 +16,7 @@ public class App {
         ParametersSetting ps = new ParametersSetting();
         Presenter p = new Presenter();
         View view = new View();
-        String path = "С:\\Курсы\\GeekBrains аналитика\\7_0_Java_errors&exceptions\\home_work_3_final_work\\human_library\\contacts\\";
+        String path = "D:\\Курсы\\GeekBrains аналитика\\7_0_Java_errors&exceptions\\home_work_3_final_work\\human_library\\contacts\\";
 
         int choice = 0;
         while (choice != 2) {
